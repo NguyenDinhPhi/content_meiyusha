@@ -1,0 +1,173 @@
+#divBody {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+    opacity: 0;
+}
+
+/* ------------- NEW -------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    touch-action: none;
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn-bg .item-top {
+    opacity: 0;
+}
+
+.btn-bg:hover .item-background {
+    opacity: 0;
+}
+
+.btn-bg:hover .item-top {
+    opacity: 1;
+}
+
+.draggable-zone {
+    opacity: 0.001;
+}
+
+.draggable-zone:focus {
+    outline: none !important;
+}
+
+.btn-pointer,
+.cursor-pointer {
+    cursor: pointer;
+}
+.cursor-pencil {
+    background: gray;
+    width: 32px;
+    height: 32px;
+    cursor: url(../images/pencilicon.png) 0 31, auto;
+}
+
+#graph-grid {
+    opacity: 0;
+}
+
+#svg_root {
+    background-color: transparent;
+}
+
+@font-face {
+    font-family: "A-SOTCenturyStd-Regular";
+    src: url(../font/A-SOTCenturyStd-Regular.woff);
+    /* src: url(../font/A-SOTCenturyStd-Regular.otf) format("opentype"); */
+}
+@font-face {
+    font-family: "A-SOTJMathCenturyStd-Bold";
+    src: url(../font/A-SOTJMathCenturyStd-Bold.woff);
+}
+@font-face {
+    font-family: "A-SOTMathCenturyStd-Regular";
+    src: url(../font/A-SOTMathCenturyStd-Regular.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: "YuGo-Bold-83pv-RKSJ-H";
+    src: url(../font/yugothib-sub.woff) format("opentype");
+}
+
+@font-face {
+    font-family: "A-SukenOT Century Std";
+    src: url(../font/A-SOTCenturyStd-Regular.ttf) format("opentype");
+}
+@font-face {
+    font-family: "rounded-mplus-1p-medium";
+    src: url(../font/rounded-mplus-1p-medium.woff);
+}
+
+@font-face {
+    font-family: "rounded-l-mplus-1p-medium";
+    src: url(../font/rounded-mplus-1p-medium.woff);
+}
+
+@font-face {
+    font-family: "rounded-mplus-1c-medium";
+    src: url(../font/rounded-mplus-1c-regular.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: "rounded-mplus-1c-regular";
+    src: url(../font/rounded-mplus-1c-regular.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: "rounded-l-mplus-1c-medium";
+    src: url(../font/rounded-l-mplus-1c-medium.woff);
+}
+@font-face {
+    font-family: "A-SOTGirishaStd-Italic";
+    src: url(../font/A-SOTGirishaStd-Italic.woff);
+}
+@font-face {
+    font-family: "A-SOTJMathCenturyStd-Regular";
+    src: url(../font/A-SOTJMathCenturyStd-Regular.woff);
+}
+@font-face {
+    font-family: "fontello";
+    src: url(../font/fontello.woff);
+}
+
+@font-face {
+    font-family: "HiraKakuPro-W3-83pv-RKSJ-H";
+    src: url(../font/Hiragino-Kaku-Gothic-Pro.woff);
+}
+
+@font-face {
+    font-family: "MOGSuujiSI-K40";
+    src: url(../font/MOGSuujiSI-K40.otf) format("opentype");
+}
+
+g[id*="-disabled"] {
+    cursor: default;
+}
+use[id*="-disabled"] {
+    cursor: default;
+}
+
+g[id*="-inactive"],
+use[id*="-inactive"],
+g[id*="rd-"] {
+    cursor: pointer;
+}
+
+.rect-disabled {
+    cursor: default !important;
+}
+
+:focus-visible,
+:focus {
+    outline: 0px !important;
+}
+
+#svg-pattern-1,
+#svg-pattern-2,
+#svg-pattern-3,
+#svg-pattern-4,
+#svg-pattern-5 {
+    visibility: hidden;
+    opacity: 0.2;
+}
+
+#svg-pattern-5 {
+    visibility: visible;
+}
+
+html {
+    touch-action: none;
+    -ms-touch-action: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Tiêu chuẩn */
+  }

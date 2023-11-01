@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.01 45.01">
+  <g id="parts">
+    <g>
+      <circle cx="22.51" cy="22.51" r="22.5" style="fill: #15639f;"/>
+      <g>
+        <path d="m28.37,34.86c-3.17,1.43-6.89,1.66-10.42.35-7.07-2.62-10.69-10.42-8.09-17.41s10.43-10.53,17.49-7.91c3.8,1.41,6.6,4.31,7.98,7.79" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 6px;"/>
+        <polygon points="42.92 15.5 27.05 17.8 36.13 24.58 42.92 15.5" style="fill: #fff;"/>
+      </g>
+    </g>
+  </g>
+</svg>

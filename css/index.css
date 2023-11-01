@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@-ms-viewport {
+    width: auto;
+    initial-scale: 1;
+    user-zoom: fixed;
+}
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+    user-zoom: fixed;
+}
+
+html {
+    touch-action: none;
+    -ms-touch-action: none;
+}
+body {
+    font-family: "遊ゴシック", "YuGothic", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.refuseusel {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -ms-content-zooming: none;
+    -ms-overflow-style: none;
+    /* */
+    -ms-touch-action: none;
+    touch-action: none;
+}
+/*
+ * コンテンツ背景サイズは 1280×1000 (SVGA)
+ */
+#stage_0 {
+    width: 1024px;
+    height: 648px;
+    margin: 0 auto;
+    /*	overflow: hidden; */
+}
+
+#stage_1 {
+    width: 1024px; /* 1280 - 1 × 2 */
+    height: 648px; /* 1000 - 1 × 2 */
+    /* border: 1px solid black;
+    background-color: white; */
+}
+
+.contbase {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.stagebase {
+    position: absolute;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+#Canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.Mycanvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2144480000;
+    pointer-events: none;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    border: 5px #ffffff solid;
+    line-height: 1em;
+    margin: 0% 5%;
+    user-select: none;
+    pointer-events: none;
+}
+
+.btnPN {
+    height: 5%;
+    width: 10%;
+    min-width: 50px;
+    margin: 1%;
+    font-weight: bold;
+    background-color: #003350;
+    color: #ffffff;
+}
+
+#testText {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#txtTestText {
+    width: 25%;
+    height: 25%;
+    border: 2px inset #999999;
+    margin: 2px;
+    font-size: 10px;
+    resize: none;
+}
+
+#testCall {
+    z-index: 2144481000;
+    position: absolute;
+    width: 50%;
+    height: 7%;
+    right: 0;
+}
+
+#callText {
+    border: 2px inset #999999;
+}
+
+#testCall2 {
+    z-index: 2144481000;
+    position: absolute;
+    width: 37%;
+    height: 7%;
+    top: 7%;
+    right: 0;
+}
+
+.callButton {
+    width: 10%;
+    min-width: 50px;
+    margin: 1%;
+    font-weight: bold;
+    background-color: #003350;
+    color: #ffffff;
+}
+
+.select-point circle:hover {
+    cursor: pointer;
+}
